@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Masuk ke Akun</title>
+</head>
+<body>
+
+    <h2>Form Login</h2>
+    
+    <form action="proses_login.php" method="POST">
+        <table border="0">
+            <tr>
+                <td><label for="username">Username / Email</label></td>
+                <td>:</td>
+                <td><input type="text" id="username" name="username" required placeholder="Username atau email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="password" name="password" required placeholder="Masukkan password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <br>
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Ingat Saya</label>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <br>
+                    <button type="submit" name="login">Masuk</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <hr>
+    <p>Belum punya akun? <a href="register.html">Daftar di sini</a></p>
+
+</body>
+</html>

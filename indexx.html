@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pendaftaran Akun Baru</title>
+</head>
+<body>
+
+    <h2>Form Registrasi</h2>
+    
+    <form action="proses_register.php" method="POST">
+        <table border="0">
+            <tr>
+                <td><label for="nama">Nama Lengkap</label></td>
+                <td>:</td>
+                <td><input type="text" id="nama" name="nama" required placeholder="Masukkan nama lengkap"></td>
+            </tr>
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td>:</td>
+                <td><input type="text" id="username" name="username" required placeholder="Masukkan username"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td>:</td>
+                <td><input type="email" id="email" name="email" required placeholder="nama@email.com"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="password" name="password" required placeholder="Masukkan password"></td>
+            </tr>
+            <tr>
+                <td><label for="konfirmasi_password">Konfirmasi Password</label></td>
+                <td>:</td>
+                <td><input type="password" id="konfirmasi_password" name="konfirmasi_password" required placeholder="Ulangi password"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <br>
+                    <button type="submit" name="register">Daftar Sekarang</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <hr>
+    <p>Sudah punya akun? <a href="index.html">Login di sini</a></p>
+
+</body>
+</html>
